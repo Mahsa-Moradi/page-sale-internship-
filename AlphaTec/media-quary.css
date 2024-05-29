@@ -1,0 +1,579 @@
+/* ..............................(max-width: 576px) exsm*/
+
+@media (max-width: 576px) {
+  .d-block-exsm {
+    display: block;
+  }
+  .d-none-exsm {
+    display: none;
+  }
+  /* ********** nav */
+  .top-nav,
+  .bottom-nav {
+    display: none;
+  }
+  /* ********* Menu-hamperger */
+  .Menu-hamperger {
+    display: block;
+  }
+  /* **************************header */
+  .top-header {
+    display: block;
+  }
+  .bottom-header {
+    height: 15px;
+  }
+  .form-bottom-header label {
+    font-size: 9px;
+  }
+  .form-bottom-header input {
+    height: 15px;
+  }
+  .header-img {
+    width: 15px;
+    height: 15px;
+  }
+  /* ....................... */
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 50px;
+    position: relative;
+    left: 0;
+    margin: auto;
+    height: auto;
+  }
+  .numbertext {
+    display: none;
+  }
+  .button-slider {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+  }
+  /* .slider-img-size{
+    width: 792px;
+    height: 190px;
+  } */
+  /* ******************************* body */
+  .card {
+    display: flex;
+    flex-basis: 100%;
+    height: auto;
+  }
+  .line-card a,
+  .num-1 {
+    font-size: 13px;
+  }
+  .line-card p {
+    font-size: 13px;
+  }
+  .card-body a {
+    width: 30px;
+    height: 15px;
+    background-color: red;
+    color: white;
+    outline-style: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+  }
+  /* .................... */
+  .line {
+    display: block;
+  }
+  .card-w-100 {
+    display: flex;
+    flex-basis: 100% !important;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+  }
+  /* ************************** footer */
+  .footer-row-exsm {
+    display: flex;
+    flex-direction: column;
+  }
+  .column-1,
+  .column-2,
+  .column-3 {
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .border-righ-exsm {
+    border-right: none !important;
+    display: flex;
+    flex-basis: 100%;
+  }
+  .tittle-footer-3 {
+    width: 150px !important;
+  }
+  .column-3-body {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 6%;
+  }
+  .body-footer {
+    padding-right: 50px;
+    width: 300px;
+  }
+}
+
+/* .............................(min-width: 576px) sm */
+@media (min-width: 576px) {
+  .d-block-sm {
+    display: block;
+  }
+  .d-none-sm {
+    display: none;
+  }
+  /* ********** nav */
+  .top-nav,
+  .bottom-nav {
+    display: none;
+  }
+  /* ********* Menu-hamperger */
+  .Menu-hamperger {
+    display: block;
+  }
+  /* **************************header */
+  .top-header {
+    display: none;
+  }
+
+  .slideshow {
+    display: block;
+  }
+  .bottom-header {
+    height: 15px;
+  }
+  .form-bottom-header label {
+    font-size: 12px;
+  }
+  .form-bottom-header input {
+    height: 20px;
+  }
+  .header-img {
+    width: 20px;
+    height: 20px;
+  }
+  /* ....................... */
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 650px;
+    position: relative;
+    left: 0;
+    margin: auto;
+    height: auto;
+  }
+  .numbertext {
+    display: none;
+  }
+  .slider-img-size {
+    width: 692px;
+    height: 190px;
+  }
+  /* *********************************body */
+  .card {
+    display: flex;
+    flex-basis: 100%;
+    /* height: 650px; */
+    height: auto;
+  }
+  .line-card a,
+  .num-1 {
+    font-size: 13px;
+  }
+  .line-card p {
+    font-size: 13px;
+  }
+  .card-body a {
+    width: 30px;
+    height: 15px;
+    background-color: red;
+    color: white;
+    outline-style: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+  }
+  /* .................... */
+  .line {
+    display: block;
+  }
+  .card-w-100 {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+  }
+  /* ************************** footer */
+  .footer-row-exsm {
+    display: flex;
+    flex-direction: column;
+  }
+  .column-1,
+  .column-2,
+  .column-3 {
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .border-righ-sm {
+    border-right: none !important;
+  }
+
+  .flex-basis-footer-3-sm {
+    display: flex;
+    flex-basis: 100% !important;
+  }
+  .tittle-footer-3 {
+    width: 150px !important;
+  }
+  .column-3-body {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 6%;
+  }
+  .body-footer {
+    padding-right: 50px;
+    width: 300px;
+  }
+  .popo {
+    /* padding: 0 0 50px 0; */
+    margin-right: 40px;
+    /* margin-left: 0px; */
+  }
+}
+/* .............................(min-width: 768px) md */
+@media (min-width: 768px) {
+  .d-block-md {
+    display: block;
+  }
+  .d-none-md {
+    display: none;
+  }
+  /* ********** nav */
+  .left-top-nav {
+    position: relative;
+    left: -20px;
+  }
+  .top-nav,
+  .bottom-nav {
+    display: block;
+  }
+  .bottom-nav {
+    position: relative;
+    left: -18px;
+  }
+  /* ********* Menu-hamperger */
+  .Menu-hamperger {
+    display: none;
+  }
+  /* **************************header */
+  .top-header {
+    display: none;
+  }
+  .slideshow {
+    display: block;
+  }
+  .bottom-header {
+    height: 45px;
+  }
+  .form-bottom-header label {
+    font-size: 12px;
+  }
+  .form-bottom-header input {
+    height: 20px;
+  }
+  .header-img {
+    width: 20px;
+    height: 20px;
+  }
+  /* ....................... */
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 750px;
+    position: relative;
+    margin: auto;
+    height: auto;
+  }
+  .numbertext {
+    display: none;
+  }
+  /* *********************************body */
+  .body {
+    overflow: hidden;
+    /* height: 900px; */
+    height: auto;
+  }
+  /* sidbar */
+  .product-menu-title {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .product-menu-ul a {
+    font-size: 10px;
+    padding-left: -10px;
+  }
+  .map {
+    /* background-color: tomato; */
+    width: 70px;
+    height: 110px;
+  }
+  /* card */
+  .card {
+    display: flex;
+    flex-basis: 100%;
+    /* height: 950px; */
+  }
+  /* .line-5 */
+  .title-line-5 p {
+    margin: 20px 0 10px 3px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  /* ************************** footer */
+  .footer-row-md {
+    display: flex;
+    flex-direction: row;
+  }
+  .column-1 {
+    display: flex;
+    flex-basis: 30% !important;
+  }
+  .header-footer {
+    font-size: 13px;
+  }
+  .column-2 {
+    display: flex;
+    flex-basis: 21% !important;
+  }
+  .tittle-footer {
+    font-size: 11px;
+    font-weight: bold;
+  }
+  .column-3 {
+    display: flex;
+    flex-basis: 43% !important;
+  }
+  .column-1,
+  .column-2 {
+    border-right: 2px solid #e0e0e0 !important;
+  }
+  .column-3 {
+    border-right: none !important;
+  }
+  .tittle-footer-3 {
+    width: 150px !important;
+  }
+  .column-3-body {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 6%;
+  }
+  .body-footer {
+    padding-right: 24px;
+    width: auto;
+  }
+}
+/* .............................(min-width: 992px) lg  50%*/
+@media (min-width: 992px) {
+  .d-block-lg {
+    display: block;
+  }
+  .d-none-lg {
+    display: none;
+  }
+  /* ********** nav */
+  .left-top-nav {
+    position: relative;
+    left: -10px;
+  }
+  .top-nav,
+  .bottom-nav {
+    display: block;
+  }
+  .bottom-nav {
+    position: relative;
+    left: -61px;
+  }
+
+  /* ********* Menu-hamperger */
+  .Menu-hamperger {
+    display: none;
+  }
+  /* **************************header */
+  .top-header {
+    display: none;
+  }
+  .slideshow {
+    display: block;
+  }
+  /* *********************************body */
+  .body {
+    overflow: hidden;
+    /* height: 900px; */
+    /* height: auto; */
+  }
+  /* sidbar */
+  .product-menu-title {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .product-menu-ul a {
+    font-size: 13px;
+    padding-left: -10px;
+  }
+  .from-twitter ul li {
+    font-size: 14px;
+  }
+  .map {
+    /* background-color: tomato; */
+    width: 90px;
+    height: 110px;
+  }
+  /* card */
+  .line {
+    display: flex;
+  }
+  .card-2,
+  .card-12 {
+    display: flex;
+    flex-basis: 210%;
+  }
+  .title-line-5 p {
+    margin: 20px 0 -40px 3px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  /* *********************************footer */
+  .tittle-footer {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .header-footer {
+    font-size: 16px;
+  }
+  .body-footer {
+    font-size: 14px;
+  }
+}
+/* .............................(min-width: 1200px) xl*/
+@media (min-width: 1200px) {
+  .d-block-xl {
+    display: block;
+  }
+  .d-none-xl {
+    display: none;
+  }
+  /* ********************** nav */
+  .left-top-nav {
+    position: relative;
+    left: -10px;
+  }
+  .top-nav,
+  .bottom-nav {
+    display: block;
+  }
+  .bottom-navbar ul li {
+    /* position: relative; */
+    /* left: -54px;   */
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* ********* Menu-hamperger */
+  .Menu-hamperger {
+    display: none;
+  }
+  /* ********************************header */
+  .top-header {
+    display: none;
+  }
+  .slideshow {
+    display: block;
+  }
+  .bottom-header {
+    height: 65px;
+  }
+  .form-bottom-header label {
+    font-size: 18px;
+  }
+  .form-bottom-header input {
+    height: 30px;
+    width: 200px;
+  }
+  .header-img {
+    width: 30px;
+    height: 30px;
+  }
+  .header-img-1 {
+    width: 40px;
+    height: 40px;
+  }
+  /* *********************************body */
+  .body {
+    overflow: hidden;
+    /* height: 900px; */
+    height: auto;
+  }
+  /* sidbar */
+  .product-menu-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  /* .product-menu-ul {
+    padding-top: 30px;
+  } */
+  .product-menu-ul a {
+    font-size: 14px;
+    padding-top: 30px;
+  }
+  .title-from-twitter {
+    font-size: 20px;
+  }
+  .from-twitter {
+    font-size: 50px;
+    margin-top: 220px;
+  }
+  .from-twitter ul li {
+    font-size: 14px;
+  }
+  .map {
+    /* background-color: tomato; */
+    width: 120px;
+    height: 180px;
+  }
+  .happy-clients p {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  .body-happt-clients {
+    font-size: 1px;
+  }
+  /* card */
+  .card {
+    display: flex;
+    flex-basis: 100%;
+    /* height: 950px; */
+  }
+  /* *********************************footer */
+  .tittle-footer {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .header-footer {
+    font-size: 16px;
+  }
+  .body-footer {
+    font-size: 14px;
+  }
+
+  /* **************************header */
+}
